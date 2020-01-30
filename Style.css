@@ -1,5 +1,12 @@
 body {
   background-color: #1a166b;
+  background-image: url(https://cdn.wallpapersafari.com/31/48/aqFUvu.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+header{
+  padding-bottom: 25px;
 }
 
 .intro {
@@ -12,5 +19,23 @@ body {
   width: 1000px;
   margin-left: auto;
   margin-right: auto;
+  border: 5px solid #1a166b;
   padding: 25px;
+}
+
+footer{
+  margin-top: 100px;
+  margin-bottom: 50px;
+  width: 1000px;
+  padding-left: 25px;
+  padding-right: 25px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 5px solid #1a166b;
+  color: #796c22;
+  background-color: antiquewhite;
+}
+
+.text-right{
+  float: right;
 }
